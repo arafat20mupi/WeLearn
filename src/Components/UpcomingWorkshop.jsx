@@ -1,4 +1,3 @@
-import React from "react";
 
 // react icons
 import { CiCalendarDate } from "react-icons/ci";
@@ -33,7 +32,7 @@ const UpcomingWorkshop = () => {
           allowSlidePrev={true}
           allowTouchMove={false}
           scrollbar={{ draggable: true }}
-          speed={900}
+          speed={1200}
           navigation={{
             prevEl: ".home-top-sell .slider_prev",
             nextEl: ".home-top-sell .slider_next ",
@@ -59,7 +58,7 @@ const UpcomingWorkshop = () => {
           }}
         >
           {upcomingWorkshop?.map((workshop, index) => (
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <div key={index} className=" shadow-lg">
                 <img
                   src={workshop.image}

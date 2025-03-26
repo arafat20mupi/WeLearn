@@ -1,4 +1,3 @@
-import React from "react";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -38,7 +37,7 @@ const Instructor = () => {
             }}
             modules={[Autoplay, Navigation]}
             autoplay={{
-              delay: 1000,
+              delay: 500,
               disableOnInteraction: false,
             }}
             breakpoints={{
@@ -57,7 +56,7 @@ const Instructor = () => {
             }}
           >
             {InstructorData?.map((instructor, index) => (
-              <SwiperSlide>
+              <SwiperSlide key={index}>
                 <div className="flex flex-col items-center justify-center">
                   <img
                     src={instructor.image}

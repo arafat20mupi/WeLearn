@@ -1,5 +1,3 @@
-import React from "react";
-
 const Support = () => {
   return (
     <section className="w-full mt-8 md:mt-16 bg-[#F1F7FF] overflow-hidden">

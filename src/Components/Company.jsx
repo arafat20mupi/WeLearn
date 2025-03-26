@@ -1,5 +1,3 @@
-import React from "react";
-
 const Company = () => {
   return (
     <section className="w-full max-w-[1600px] mx-auto py-8 px-6">

@@ -1,5 +1,3 @@
-import React from "react";
-
 // all components
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";

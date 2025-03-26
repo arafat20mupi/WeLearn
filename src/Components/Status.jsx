@@ -1,5 +1,3 @@
-import React from "react";
-
 const Status = () => {
   return (
     <section className="w-full max-w-[1600px] mx-auto px-6 py-8 md:py-20 flex items-center gap-6 justify-between flex-col md:flex-row">

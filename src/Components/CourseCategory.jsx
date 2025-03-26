@@ -1,4 +1,3 @@
-import React from "react";
 
 // react icons
 import { IoTimeOutline } from "react-icons/io5";
@@ -78,7 +77,7 @@ const CourseCategory = () => {
           }}
         >
           {courseData?.map((course, index) => (
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <div className="bg-[#F6F6F6]">
                 <img
                   src={course.image}

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 
 // react icons
 import { IoIosArrowDown } from "react-icons/io";
